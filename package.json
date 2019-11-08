@@ -1,0 +1,14 @@
+{
+  "name": "create-a-string-manipulation-library-in-js",
+  "version": "1.0.0",
+  "description": "In this project, we’ll create a JavaScript library for manipulating the line break characters in strings. We’ll make this functionality available to import in JavaScript code and for use on the command line.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AJ Foster (https://aj-foster.com)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
