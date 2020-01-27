@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "crlf-convert": "./src/cli.js"
+  },
   "author": "AJ Foster (https://aj-foster.com)",
   "license": "UNLICENSED",
   "dependencies": {
