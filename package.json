@@ -4,7 +4,9 @@
   "description": "In this project, we’ll create a JavaScript library for manipulating the line break characters in strings. We’ll make this functionality available to import in JavaScript code and for use on the command line.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env NODE_ENV=test mocha './test/**/*.spec.js' || true",
+    "test:module1": "echo 'There are no tests for module 1 (Setup)'",
+    "test:module2": "cross-env NODE_ENV=test mocha './test/module-2/*.spec.js' || true"
   },
   "bin": {
     "crlf-convert": "./src/cli.js"
@@ -12,7 +14,11 @@
   "author": "AJ Foster (https://aj-foster.com)",
   "license": "UNLICENSED",
   "dependencies": {
-    "mocha": "^5.2.0"
+    "chai": "^4.2.0",
+    "cross-env": "^7.0.0",
+    "esprima": "^4.0.1",
+    "mocha": "^5.2.0",
+    "sinon": "^8.0.4"
   },
   "devDependencies": {
     "eslint": "^6.6.0"
