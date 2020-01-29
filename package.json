@@ -2,6 +2,7 @@
   "name": "create-a-string-manipulation-library-in-js",
   "version": "1.0.0",
   "description": "In this project, we’ll create a JavaScript library for manipulating the line break characters in strings. We’ll make this functionality available to import in JavaScript code and for use on the command line.",
+  "repository": "github:pluralsight-projects/javascript-string-manipulation",
   "main": "src/index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha './test/**/*.spec.js' || true",
