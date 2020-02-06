@@ -7,7 +7,8 @@
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha './test/**/*.spec.js' || true",
     "test:module1": "echo 'There are no tests for module 1 (Setup)'",
-    "test:module2": "cross-env NODE_ENV=test mocha './test/module-2/*.spec.js' || true"
+    "test:module2": "cross-env NODE_ENV=test mocha './test/module-2/*.spec.js' || true",
+    "test:module3": "cross-env NODE_ENV=test mocha './test/module-3/*.spec.js' || true"
   },
   "bin": {
     "crlf-convert": "./src/cli.js"
